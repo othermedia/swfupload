@@ -1,0 +1,18 @@
+---
+source_directory:     .
+build_directory:      .
+layout:               together
+
+builds:
+  min:
+    shrink_vars:      true
+    private:          false
+
+packages:
+  swfupload:
+    files:
+      - swfupload
+    meta:
+      provides:
+        - SWFUpload
+
